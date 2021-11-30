@@ -144,7 +144,7 @@ align-items: center;}
 
             
 
-            @media only screen and (min-width: 414px × 896px)
+            @media only screen and (min-width: 414px)
 
         { .front-page { display: grid;
          grid-template-columns: repeat(1, 1fr);
