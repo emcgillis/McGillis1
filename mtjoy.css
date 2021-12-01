@@ -72,3 +72,38 @@
               font-family: 'Comfortaa', cursive;
               font-size: 30px; 
               padding-top: 50px;}
+
+
+              @media screen and (max-width: 500px)
+              {  .topcontent{ display:block;}
+      
+              .image1{display: none;}
+      
+              .title{ display: block;
+                align-content: center;}
+      
+              .narrative{display: block;
+                 align-content: center;
+                 margin-top:30px;
+                  margin-bottom: 30px;
+                  font-size: 16px; }
+
+                  .images{ display:grid;
+                  grid-template-columns: repeat(1, 1fr);
+                  grid-template-rows:repeat(3,300px);}
+
+                .image2{ grid-row: 1,2;
+                         grid-column: 1/1;
+                       display: flex;
+                       align-content: center;}
+
+                       .image3{grid-row: 2/3;
+                          grid-column: 1/1;
+                         display: flex;
+                        align-content: center; }
+      
+                        .image4{ grid-row: 3/4;
+                          grid-column: 1/1;
+                          display: flex;
+                          align-content: center;}
+              }

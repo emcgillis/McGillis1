@@ -58,7 +58,7 @@
 
     .mockups{ display: grid;
         grid-template-columns:repeat(2, 1fr);
-        grid-template-rows:repeat(4, 400px); } 
+        grid-template-rows:repeat(3, 400px); } 
 
     .menu { grid-row: 1/2; 
     grid-column: 1/2;
@@ -67,13 +67,7 @@
      background-color:rgb(106,137,112);
     padding: 40px;}
 
-    .candle { grid-row:2/3;
-    grid-column: 2/3;
-   display: flex;
-  justify-content: center;
-   background-color:rgb(106,137,112);
-   padding: 40px;}
-
+  
   .coffee { grid-row: 3/4;
    grid-column:1/2 ;
    display: flex;
@@ -82,7 +76,7 @@
  padding: 40px;}
 
 
-.oil { grid-row: 4/5;
+.oil { grid-row: 2/3;
 grid-column: 2/3;
 display: flex;
 justify-content: center;
@@ -96,3 +90,56 @@ padding: 40px;}
         font-family: 'Comfortaa', cursive;
         font-size: 30px; 
         padding-top: 50px;;}
+
+        @media screen and (max-width: 500px)
+        {  .content{ display:block;}
+
+        .logo{display: none;}
+
+        .title{ display: block;
+          align-content: center;}
+
+        .narrative{display: block;
+           align-content: center;
+           margin-top:30px;
+            margin-bottom: 30px;
+            font-size: 16px; }
+
+          .logos{ display:grid;
+           grid-template-columns: repeat(1,1fr);
+           grid-template-rows:repeat(2, 300px)}
+
+        .hotellogo{ grid-row: 1/2;
+          grid-column: (1/1);
+          display: flex;
+          align-content: center;
+          padding-bottom: 40px; 
+         }
+
+        .cafelogo{ grid-row: 2/3;
+          grid-column: 1/1;
+          display: flex;
+          align-content: center;
+           }
+        .mockups{display:grid;
+          grid-template-columns: repeat(1,1fr);
+          grid-template-rows:repeat(3, 300px)}
+          
+          .menu{ grid-row: 1/2;
+            grid-column: 1/1;
+            display: flex;
+            align-content: center;}
+
+          .coffee{grid-row: 2/3;
+            grid-column: 1/1;
+            display: flex;
+            align-content: center;}
+
+          .oil{grid-row: 3/4;
+            grid-column: 1/1;
+            display: flex;
+            align-content: center;}
+
+
+
+        }

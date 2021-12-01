@@ -49,3 +49,22 @@
              font-size: 20px;
              line-height: 2;
              text-align: center; }
+
+
+             @media screen and (max-width: 500px) 
+             {
+                .content{ display: block;}
+
+                .image1{ display: block;
+                 width: 100%;}
+
+                .bio{ display: block; }
+
+                .statement{display:none;}
+
+
+
+             }
+
+
+        
