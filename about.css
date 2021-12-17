@@ -3,10 +3,12 @@
     padding-top: 30px;
     word-spacing: 20px;
     font-family: 'Comfortaa', cursive;}
+    
+    .topnav a{color:rgb(20, 29, 45);
+        text-decoration: none;}
+    
+       .topnav a:hover { color: rgb(230,163,118); }  
   
-   .topnav a:hover {
-      background-color: #ddd;
-      color: black;}
 
 
 .header2{ text-align: left ;
@@ -37,7 +39,8 @@
        font-family: 'Quicksand', sans-serif;
        line-height: 2.3; 
         font-size: 15px;
-        text-align:left;}
+        text-align:left;
+        color:rgb(20, 29, 45);}
 
 .statement{ grid-row:2/4;
             grid-column: 1/4;
@@ -48,7 +51,9 @@
              font-family: 'Quicksand', sans-serif;
              font-size: 20px;
              line-height: 2;
-             text-align: center; }
+             text-align: center;
+             color:rgb(20, 29, 45);
+             }
 
 
              @media screen and (max-width: 500px) 
